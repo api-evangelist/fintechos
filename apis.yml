@@ -1,8 +1,27 @@
 aid: fintechos
-name: Fintechos
-description: Fintechos is a company surfaced as a portfolio company of earlybird and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: FintechOS
+description: FintechOS is an AI-powered financial product operations platform that enables banks,
+  lenders, and insurers to configure, price, launch, and manage financial products with reduced
+  dependency on legacy core systems. The platform combines unified product operations, agentic
+  workflow orchestration, and governed AI to streamline origination, servicing, underwriting, and
+  compliance across banking and insurance. It exposes a low-code development environment with Server
+  SDK and Client SDK layers and REST APIs, documented at docs.fintechos.com, with a gated developer
+  community and an academy for onboarding. Founded in Romania with headquarters in the United Kingdom,
+  FintechOS is a portfolio company of Earlybird and was added to the API Evangelist network for
+  enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/fintechos/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://fintechos.com/wp-content/uploads/2026/04/Section-1.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,12 +30,43 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Fintech
+- Banking
+- Insurance
+- Lending
+- Low-Code
+- Financial Services
+- Digital Transformation
+- Product Operations
+- AI
 apis: []
+common:
+- url: https://fintechos.com/
+  type: Website
+- url: https://docs.fintechos.com/Home.htm
+  type: Documentation
+- url: https://community.fintechos.com/
+  type: DeveloperPortal
+- url: https://academy.fintechos.com/learn
+  type: GettingStarted
+- url: https://fintechos.com/blog/
+  type: Blog
+- url: https://fintechos.com/terms-conditions/
+  type: TermsOfService
+- url: https://fintechos.com/privacy-policy/
+  type: PrivacyPolicy
+- url: security/fintechos-domain-security.yml
+  type: DomainSecurity
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
